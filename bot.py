@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 from analysis import get_top_matches
 
-TOKEN = "ВАШ_ТОКЕН"
+TOKEN = "7773554581:AAHKdnGM2hcfQSFoCYICZVN7vZ_qlugUu4o"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Привет! Я покажу лучшие матчи для ставок.")
