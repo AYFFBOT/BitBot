@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "ВАШ_API_КЛЮЧ"
+API_KEY = "ad361015b134e5da9b5f19379a775757"
 
 def get_odds():
     url = "https://api.the-odds-api.com/v4/sports/soccer_epl/odds/"
